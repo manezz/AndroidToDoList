@@ -2,24 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="horizontal">
 
-    <TextView
+    <CheckBox
+        android:id="@+id/tvChecked"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:textStyle="bold"/>
+
+    <EditText
         android:id="@+id/tvName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
         android:padding="10dip"
         android:textSize="16dip"
         android:textStyle="bold"
         android:text="name"/>
-
-    <CheckBox
-        android:id="@+id/tvChecked"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dip"
-        android:textSize="16dip"
-        android:textStyle="bold"
-        android:text="checked"/>
 
 </LinearLayout>
